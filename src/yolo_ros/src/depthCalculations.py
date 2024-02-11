@@ -36,13 +36,21 @@ class cameraStuff:
                 self.tokmakreely = self.tokmak_y+ (self.tokmak_height/ 2)
         try:
             self.sisepositionx = self.sise_depth / self.focalLength *(self.sisereelx - (self.sise_widht/2)) *1000
-            self.sisepositiony = self.sise_depth / self.focalLength *(self.sisereely - (self.sise_depth/2)) *1000
+            self.sisepositiony = self.sise_depth / self.focalLength *(self.sisereely - (self.sise_height/2)) *1000
             self.sisepositionz = self.sise_depth *1000
             print(f"SİSE Xİ {self.sisepositionx}") # mm olarak
             print(f"SİSE Yİ {self.sisepositiony}") # mm olarak
             print(f"SİSE Zİ {self.sisepositionz}") # mm olarak
         except:
             pass
+        try:
+            self.tokmakpositionx = self.tokmak_depth / self.focalLength*(self.tokmakreelx-(self.tokmak_widht/2))*1000
+            self.tokmakpositiony = self.tokmak_depth / self.focalLength*(self.tokmakreely -(self.tokmak_height/2))*1000
+            print(f"tokmak x:{tokmakpositionx}") # mm olarak
+            print(f"tokmak y:{tokmakpositiony}") # mm olarak
+            print(f"tokmak z:{tokmak_depth}") # mm olarak
+            except:
+                pass
 
 
 if __name__ == "__main__":
