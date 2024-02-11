@@ -1,0 +1,6 @@
+devel_space: /home/yigit/depth_ws/devel
+install: false
+install_space: /home/yigit/depth_ws/install
+profile: default
+source_space: /home/yigit/depth_ws/src
+workspace: /home/yigit/depth_ws

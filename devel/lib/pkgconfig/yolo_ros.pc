@@ -1,0 +1,1 @@
+/home/yigit/depth_ws/devel/.private/yolo_ros/lib/pkgconfig/yolo_ros.pc

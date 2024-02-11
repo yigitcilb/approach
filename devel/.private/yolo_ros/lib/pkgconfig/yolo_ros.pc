@@ -1,0 +1,8 @@
+prefix=/home/yigit/depth_ws/devel/.private/yolo_ros
+
+Name: yolo_ros
+Description: Description of yolo_ros
+Version: 0.0.0
+Cflags: -I/home/yigit/depth_ws/devel/.private/yolo_ros/include
+Libs: -L${prefix}/lib -lyolo_ros
+Requires: roscpp rospy std_msgs vision_msgs message_runtime

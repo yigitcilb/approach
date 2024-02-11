@@ -1,0 +1,1 @@
+/home/yigit/depth_ws/devel/.private/yolo_ros/share/common-lisp/ros/yolo_ros/msg/_package.lisp

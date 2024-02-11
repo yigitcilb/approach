@@ -1,0 +1,1 @@
+/home/yigit/depth_ws/devel/.private/yolo_ros/share/gennodejs/ros/yolo_ros/_index.js

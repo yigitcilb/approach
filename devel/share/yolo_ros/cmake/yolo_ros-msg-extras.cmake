@@ -1,0 +1,1 @@
+/home/yigit/depth_ws/devel/.private/yolo_ros/share/yolo_ros/cmake/yolo_ros-msg-extras.cmake
